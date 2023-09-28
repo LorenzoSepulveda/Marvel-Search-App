@@ -40,7 +40,7 @@ export default function HeroDetails() {
   return (
     <div className="container large">
       <div className="hero__details-container">
-        <img src={thumbnailUrl} alt="hero image full size" />
+        <img src={thumbnailUrl} alt="hero full size" />
         <div className="hero__details">
           <h4 className='desc-title'>Name</h4>
           <p className='hero-desc'>{name}</p>
